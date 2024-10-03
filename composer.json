@@ -19,11 +19,14 @@
             "email": "gadelat@gmai.com"
         }
     ],
+    "provide": {
+        "ext-newrelic": "*"
+    },
     "require": {
         "php": ">=8.0"
     },
     "suggest": {
-        "ext-newrelic": "Install the New Relic PHP agent on your system"
+        "ext-newrelic": "Install the New Relic extension to trakc performance."
     },
     "autoload": {
         "psr-4": {
